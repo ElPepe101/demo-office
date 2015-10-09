@@ -1,0 +1,27 @@
+{
+  "name": "scorm office",
+  "version": "0.1.0",
+  "authors": [
+    "ElPepe <aunsoyjoven@hotmail.com> <antonio_segoviano@digitalbox.com.mx>"
+  ],
+  "description": "",
+  "license": "CC BY-NC-ND 4.0",
+  "homepage": "/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "modernizr": "~3.1.0",
+    "lodash": "~3.10.1",
+    "angular": "~1.4.7",
+    "angulartics": "~0.20.1",
+    "angular-route": "~1.4.7",
+    "angular-animate": "~1.4.7",
+    "normalize-css": "~3.0.3"
+  }
+}

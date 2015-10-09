@@ -1,0 +1,47 @@
+{
+    "site": "",
+    "pages": [
+        {
+            "page": "/",
+            "templateUrl": "app/components/inicio/inicio.html",
+            "controller": "InicioCtrl",
+            "text": "",
+            "class": "inicio"
+        }
+    ],
+    "dist": {
+        "html": "dist/",
+        "css": "dist/public/css/",
+        "js": "dist/public/js/"
+    },
+    "src": {
+        "html": [
+            "src/index.html",
+            "src/app/shared/**/*.html",
+            "src/app/components/**/*.html"
+        ],
+        "css": [
+            "src/assets/css/*.css"
+        ],
+        "js": [
+            "src/app/*.js",
+            "src/app/shared/**/*.js",
+            "src/app/components/**/*.js",
+            "src/assets/js/*.js"
+        ]
+    },
+    "lib": {
+        "css": [
+            "bower_components/normalize-css/normalize.css"
+        ],
+        "js": [
+            "bower_components/modernizr/modernizr.js",
+            "bower_components/lodash/lodash.js",
+            "bower_components/angular/angular.js",
+            "bower_components/angular-route/angular-route.js",
+            "bower_components/angular-animate/angular-animate.js",
+            "bower_components/angulartics/src/angulartics.js",
+            "bower_components/angulartics/src/angulartics-ga.js"
+        ]
+    }
+}

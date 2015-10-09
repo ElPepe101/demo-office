@@ -1,0 +1,15 @@
+# Node
+node_modules/
+
+# Bower
+bower_components/
+
+# Git
+.git
+
+# Mac
+.DS_Store
+
+# Other
+.tmp/
+dist/
